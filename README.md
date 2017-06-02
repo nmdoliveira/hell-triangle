@@ -18,12 +18,11 @@ In this triangle, the maximum total is **6 + 5 + 7 + 8 = 26**.
 
 ## Solution
 
-I wrote the solution in Ruby because it is the language I'm most profficient in.
+I wrote the solution in Ruby because it is the language I'm most proficient in.
 
-My solution is based on reducing, from bottom to top, the minimal sub-triangles inside the triangle to their maximum totals, until we have only one value.
-A minimal sub-triangle is a triangle with one element on the top and two on the bottom.
+My solution is based on reducing, from bottom to top, the sub-triangles inside the triangle to their maximum totals, until we have only one value.
 
-For example, in the last two rows of the example triangle, we have the following sub-triangles:
+For example, in the last two rows of triangle above, we have the following sub-triangles:
 
 The left one:
 ```
@@ -76,7 +75,7 @@ To run the tests, first install RSpec:
 bundle install
 ```
 
-And then:
+And then run:
 
 ```
 bundle exec rspec
